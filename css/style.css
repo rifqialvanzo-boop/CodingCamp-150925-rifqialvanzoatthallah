@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8f0f0f;
+  color: #f4eded;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.todo-container {
+  background: #3b1515;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: hsl(228, 45%, 98%);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+form input[type="text"], form input[type="date"] {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 8px 12px;
+  border: none;
+  background: #ff0000;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.actions button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #ff0000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.actions button:hover, form button:hover{
+  background: #c16363;
+}
+
+.actions select {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #ff0000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.actions select option {
+  background: #ff0000;
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background: #ff0101;
+  color: #ffffff;
+}
+
+td {
+  background: #8e3232;
+}
+
+.no-task {
+  text-align: center;
+  color: #fffdfd;
+}
